@@ -1,0 +1,30 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+td{
+    padding:5px;
+}
+
+.show-title{
+    display:flex;
+}
+
+.show-body{
+    display:flex;
+}
+
+.columnn{
+    width:20px;
+}
+
+.show-title-content{
+    width:100%;
+}
+
+.show-body-content{
+    width:100%;
+}
+
+.error-message{
+    color:red;
+}

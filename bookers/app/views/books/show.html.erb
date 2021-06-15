@@ -1,0 +1,18 @@
+<div class="show-title">
+  <p class="columnn"><strong>Title:</strong></p>
+  <p class="show-title-content"><%= @book.title %></p>
+</div>
+
+<div class="show-body">
+  <p class="columnn"><strong>Body:</strong></p>
+  <p class="show-body-content"><%= @book.body %></p>
+</div>
+
+<span>
+  <%= link_to "Edit",edit_book_path(@book.id) %>
+</span>
+|
+<span>
+  <%= link_to "Back",books_path %>
+</span>
+
